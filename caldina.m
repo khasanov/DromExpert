@@ -22,3 +22,14 @@ plotData(X, Y);
 print -dpng caldina1.png                  % save figure as png
 fprintf('Program paused. Press enter to continue.\n');
 pause;
+
+%% Theta
+X = [ones(m, 1), data(:,2)];              % Add a column of ones to x
+theta = pinv(X'*X)*X'*Y;
+
+% Plot the linear fit
+hold on;                                  % keep previous plot visible
+plot(X(:,2), X*theta, '-')
+legend('Training data', 'Linear regression')
+print -dpng caldina2.png
+hold off                                  % don't overlay any more plots on this figure
