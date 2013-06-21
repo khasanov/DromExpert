@@ -33,3 +33,9 @@ plot(X(:,2), X*theta, '-')
 legend('Training data', 'Linear regression')
 print -dpng caldina2.png
 hold off                                  % don't overlay any more plots on this figure
+
+% Predict price for year 1994
+predict = [1, 1994] *theta;
+fprintf('For year = 1994, we predict a price of %f\n', predict);
+fprintf('Program paused. Press enter to continue.\n');
+pause;
