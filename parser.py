@@ -13,8 +13,8 @@
 import os
 from BeautifulSoup import BeautifulSoup
 
-html_directory = "./novosibirsk.drom.ru/toyota/caldina/"
-output_file = "./caldina.txt"
+html_directory = "./novosibirsk.drom.ru/suzuki/escudo/"
+output_file = "./escudo.txt"
 data = u""
 delimiter = "\t"
 

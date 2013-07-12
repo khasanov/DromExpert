@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /*_openstat
+Disallow: /*utm_source
+Disallow: /profile.php
+Disallow: /search.php
+Disallow: /search/
+Disallow: /search_extended/
+Disallow: /auto/search/
+Disallow: /auto/search_extended/
+Disallow: /redirect.php
+Disallow: /redir.php
+Host: novosibirsk.drom.ru
+
+Sitemap: http://novosibirsk.drom.ru/sitemap/index_bulls_novosibirsk.xml
+Sitemap: http://novosibirsk.drom.ru/sitemap/index_bulls_dir_model_novosibirsk.xml
+Sitemap: http://novosibirsk.drom.ru/sitemap/index_bulls_dir_firm_novosibirsk.xml
+Sitemap: http://novosibirsk.drom.ru/sitemap/index_bulls_archive_novosibirsk.xml
